@@ -1,0 +1,196 @@
+body {
+    background-color: #c8c8c8;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*CSS INDEX*/
+
+.item1{
+    width: 50%;
+    height: 50%;
+    margin-left: 10%;
+    align-items: center;
+}
+.grid-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+#hazel{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #4a8da1;
+    border-width: 7%;
+    width: 30%;
+    height: 60%;
+    align-self: center;
+    margin-left: 25%;
+    position: relative;
+}
+
+#hazelname{
+    grid-row-end: auto;
+    color: #000000;
+    font-family: 'Bree Serif', serif;
+    font-size: 200%; 
+    margin-left: 25%;   
+ }
+
+#junior{
+    font-family: 'Noto Sans Symbols 2', sans-serif;
+    font-size: 115%;
+    margin-left: 27%;
+    align-self: auto;
+    
+}
+
+#myspecifics{
+    color: #000000;
+    font-size: 350%;
+    font-family: 'Noto Sans Symbols 2', sans-serif;
+    margin-left: 5%;
+}
+
+#cv{
+    color: #4a8da1; 
+}
+
+#profile{
+    font-size: 175%;
+    font-family: 'Noto Sans Symbols 2', sans-serif;
+   
+}
+
+.buttonOne{
+    width: 5%;
+    height: 5%;
+    padding: 1%;
+    border-style: solid;
+    border-color: #a3a0a0;
+    border-width: 1%;
+    background-color: #a3a0a0;
+    font-family: 'Bree Serif', serif;
+    font-size: 125%;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;  
+}
+.buttonOne:hover:not(.active) {
+    background-color: #4a8da1;
+    border-color: #4a8da1;
+  }
+
+  .active {
+    background-color: #4a8da1;
+  }
+
+#h2{
+    font-family: 'Noto Sans Symbols 2', sans-serif; 
+    margin: 0%;
+}
+/*CSS INDEXX*/
+
+#header{
+    height: 5%;
+    background-color: #4a8da1;
+    
+}
+
+#hazel2{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #5eb6d0;
+    width: 5%;
+    height: 5%;
+    position: relative; 
+}
+/*LISTAS: PROFILE, WORK EXPERIENCE, STUDIES, CONTACT INFO, SKILLS*/
+#body{
+    margin-bottom: 5%;
+}
+.list{
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Noto Sans Symbols 2', sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    background-color: #9bcfde;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#pProfile{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-size: 120%;
+    line-height: 125%;
+}
+
+#listSkills{
+    list-style-type: none;
+    margin-left: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120%;
+    line-height: 125%;
+}
+
+#pWorkExp{
+    margin-bottom: 4%;
+    margin-left: 5%;
+    font-size: 110%;
+    font-weight: bold;
+    color: #25454e;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120%;
+}
+
+#listWorkExp{
+    list-style-type: square;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120%;
+    line-height: 125%;
+}
+
+#pStudies{
+    margin-left: 5%;
+    font-size: 110%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 110%;
+    font-weight: bold;
+    color: #25454e;
+    font-size: 120%;
+}
+
+.listsContactInfo{
+    list-style-type: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 110%;
+    line-height: 125%;
+
+}
+
+.material-symbols-outlined{
+    color: #25454e;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+
+#enlaces{
+    color: #000000;
+    font-size: 110%;
+}
+
+#enlaces:hover:not(.active) {
+    background-color: #4a8da1;
+    border-color: #4a8da1;
+  }
+
